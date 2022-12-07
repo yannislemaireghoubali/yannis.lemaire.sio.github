@@ -3,6 +3,7 @@
 
 
 ## 1. mettre en oeuvre les technologies web pour créer et héberger mon portfolio
+![NetBeans](E:\BTS SIO BONAPARTE\Bloc1\mon portfoliosio\128px-Apache_NetBeans_Logo.svg.png)
 
 
 - HTML
