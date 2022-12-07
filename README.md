@@ -2,7 +2,9 @@
 
 
 
-## 1. technologies web utilisés
+## 1. mettre en oeuvre les technologies web pour créer et héberger mon portfolio
+
+
 - HTML
 - CSS
 - NetBeans
