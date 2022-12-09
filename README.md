@@ -3,12 +3,6 @@
 
 
 ## 1. mettre en oeuvre les technologies web pour créer et héberger mon portfolio
-![Netbeans](https://upload.wikimedia.org/wikipedia/commons/9/98/Apache_NetBeans_Logo.svg)
-![HTML]()
-![CSS]()
-![Bootstrap]()
-![Git]()
-![Github](https://upload.wikimedia.org/wikipedia/commons/4/4a/GitHub_Mark.png)
 
 - HTML
 - CSS
