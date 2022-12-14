@@ -1,13 +1,24 @@
-img {
+p1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    width: 576px;
+    padding: 10px 50px 30px 0;
+    padding: 10px;
+}
+
+.jumbotron{
     float:left;
 }
 
-body {
-    display: flex; /* Ce conteneur est "flexible" */
-    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
-    flex-direction: column; /* Les éléments sont empilés */
-    align-items: center; /* Les éléments portés sont centrés à la verticale */
-    width: 100%; /* La page occupe toute la largeur */
+img{
+    float:left;
+}
+
+.flotte {
+    float:left;
 }
 
 /* Smartphone */
@@ -17,13 +28,13 @@ body {
     }
 
     header, section {
-        width: auto; /* Suppression de la largeur définie */
+        width: auto;
     }
 
     header img {
-        width: 100%; /* Bannière sur toute la largeur */
-        background-color: black; /* Extension artificielle noire */
-        padding-bottom: 15px; /* du bas de l'image sur 15 pixels */
+        width: 100%;
+        background-color: black;
+        padding-bottom: 15px;
     }
 
     nav {
@@ -35,9 +46,9 @@ body {
     }
 
     nav ul {
-        display: flex; /* Ce conteneur est "flexible" */
-        flex-direction: column; /* Les éléments sont mis côte à côte */
-        align-items: flex-start; /* Alignement sur la gauche */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         position: absolute;
         margin: -39px 0 0 -60px;
         padding: 50px 10px 10px 60px;
@@ -55,13 +66,12 @@ body {
 
 
     nav input {
-        display: block; /* Affichage de l'input pour pouvoir cliquez dessus */
+        display: block;
         position: absolute;
-        opacity: 0; /* input transparent */
-        z-index: 2; /* On le place au-dessus du bouton de menu (hamburger) */
+        opacity: 0;
+        z-index: 2;
     }
 
-    /* Création artificielle de l'icone de menu (hamburger) */
     nav span {
         display: block;
         width: 30px;
@@ -70,32 +80,26 @@ body {
         position: relative;
         background: black;
         border-radius: 3px;
-        z-index: 1; /* En dessous de l'input défini avant */
-        /*transform-origin: 4px 0px; /* Modification du centre pour rotation */
+        z-index: 1;
         transition: transform 0.5s ease, background 0.5s ease, opacity 0.55s ease;
     }
 
-    /* Toutes les barres en blanc */
     nav input:checked ~ span {
         background: white;
     }
 
-    /* On fait pivoter la première de 45° (sens horaire) */
     nav input:checked ~ span:nth-child(2) {
         transform: rotate(45deg) translate(7px, 5px);
     }
 
-    /* On fait pivoter la dernière de 45° (sens anti-horaire) */
     nav input:checked ~ span:nth-child(4) {
         transform: rotate(-45deg) translate(10px, -6px);
     }
 
-    /* On cache la barre du milieu */
     nav input:checked ~ span:nth-child(3) {
         opacity: 0; 
     }
 
-    /* On annule la translation vers la gauche qui a caché le menu */
     nav input:checked ~ ul {
         transform: none;
     }
@@ -133,6 +137,6 @@ body {
 
 @media screen and (min-width:576px) and (max-width:768px) {
     #thematique {
-        flex-direction: row; /* Sur tablette, on met les casques de la page d'accueil côte à côte */
+        flex-direction: row;
     }
 }
