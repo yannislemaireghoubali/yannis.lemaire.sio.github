@@ -1,31 +1,3 @@
-#principal {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 50px;
-    width: 916px;
-    font-size: large;
-}
-
-.jumbotron{
-    float:left;
-    width: 100%
-}
-
-img{
-    float:left;
-    margin-left: 15em;
-}
-
-.flotte {
-    float:left;
-}
-
-#exceptionnelle {
-    background-color: blue
-}
-
 /* Smartphone */
 @media screen and (max-width:768px) {
     body {
