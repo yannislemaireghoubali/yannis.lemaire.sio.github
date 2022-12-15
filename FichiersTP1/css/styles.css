@@ -10,16 +10,20 @@
 
 .jumbotron{
     float:left;
+    width: 100%
 }
 
 img{
     float:left;
-    margin-left: 9em;
-    margin-bottom: 1em;
+    margin-left: 15em;
 }
 
 .flotte {
     float:left;
+}
+
+#exceptionnelle {
+    background-color: blue
 }
 
 /* Smartphone */
