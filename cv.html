@@ -3,7 +3,7 @@
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
 -->
-<html lang="en">
+<html lang="fr">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -19,7 +19,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <title>Portfolio de Yannis Lemaire (BTS SIO 2022)</title>
     </head>
     <body>
-        <h1>Bonjour et bienvenu sur mon portfolio !</h1>
 
         <!-- Optional JavaScript; choose one of the two! -->
 
@@ -143,66 +142,109 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             <div class="container">
                 <div class="row">
                     <div class="text-center">
-                        <div>
-                            <img src="FichiersTP1/images/AmeliaPilou.jpg" alt="Ma photo d'identité">
-                        </div>
-                        <div>
-                            <h1>Bonjour, je m'appelle Yannis Lemaire et voici mon CV</h1>
+                        <div class="row cadreCV">
+                            <div id="cv-entete" class="text-center">
+                                <div id="cv-photo">
+                                    <img src="../FichiersTP1/images/AmeliaPilou.jpg" alt="Ma photo d'identité">
+                                </div>
+                                <div id="cv-intro">
+                                    <h1>Bonjour, je m'appelle Yannis et voici mon CV</h1>
+                                    <div class="row cadreCV">
+                                    <div class="col-xs-12 col-sm-7">
+                                    <!-- Partie gauche -->
+                                    <div class="rubrique clearfix">
+                                            <h2><span class="fa fa-comment"></span> En quelques mots...</h2>
+                                            <p>J'ai 18 ans, j'habite Toulon et je suis passionné d'informatique et de 
+                                            nouvelles technologies depuis le college. Je suis actuellement un 
+                                            BTS Services Informatiques aux Organisations ce qui m'a décidé à aller au 
+                                            delà de la passion, afin de faire de l'informatique et plus particulièrement 
+                                            du développement d'applications, mon métier&nbsp;!
+                                            </p>
+                                    </div>
+                                    <div class="rubrique clearfix">
+                                        <h2><span class="fa fa-graduation-cap"></span> Parcours scolaire</h2>
+                                        <ul id="parcours" class="clearfix">
+                                            <li>
+                                                <div class="date float-left">
+                                                    <span class="fa fa-stop-circle"></span>&nbsp;2022
+                                                </div>
+                                                <div class="details float-right">
+                                                    <h3>BTS SIO option SLAM (en cours...)</h3>
+                                                    <p>Brevet de Technicien Supérieur "Services Informatiques aux 
+                                                        Organisations", option "Solutions Logicielles et Applications 
+                                                       Métiers"
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date float-left">
+                                                    <span class="fa fa-stop-circle"></span>&nbsp;2021
+                                                </div>
+                                                <div class="details float-right">
+                                                    <h3>Bac général spécialité NSI et Mathématiques</h3>
+                                                    <p>Baccalauréat "Général" spécialité "Systèmes d’Information et 
+                                                    Numérique" et "mathématiques"</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date float-left">
+                                                    <span class="fa fa-stop-circle"></span>&nbsp;2019
+                                                </div>
+                                                <div class="details float-right">
+                                                    <h3>Diplôme Nationale du Brevet</h3>
+                                                <p></p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="rubrique clearfix">
+                                        <h2><span class="fa fa-briefcase"></span> Expériences professionnelles</h2>
+                                        <div class="experience clearfix">
+                                            <div class="col-3">
+                                                <div class="lieu">devellopement web</div>
+                                                <div class="date">2022 (11 sem.)</div>
+                                            </div>
+                                            <div class="col-9">
+                                                <div class="profession">Developpement NetBeans 14</div>
+                                                <div class="details">Conception d'un site en HTML et en CSS a l'aide d'un logiciel NetBeans et d'un framework CSS Bootstrap
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="experience clearfix">
+                                            <div class="col-3">
+                                                <div class="lieu">python</div>
+                                                <div class="date">2021 (2 ans et 4 mois)</div>
+                                            </div>
+                                            <div class="col-9">
+                                                <div class="profession">Développement python</div>
+                                                <div class="details">maitrise de la programmation
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="experience clearfix">
+                                            <div class="col-3">
+                                                <div class="lieu">SQL</div>
+                                                <div class="date">2021<br>(1 an)</div>
+                                            </div>
+                                            <div class="col-9">
+                                                <div class="profession">concevoir des bases de données</div>
+                                                <div class="details">concevoir des bases de données avec l'aide d'une interface web PhpMyAdmin
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </div>
+                                        <div class="col-xs-12 col-sm-5">
+                                        <!-- Partie droite -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <h2>Étudiant au lycée bonaparte</h2>
-                        <p>J'ai choisi de suivre le BTS SIO parce que je suis passionnée par l'informatique.
-                            Le BTS propose des stages et des études concrètes, un enseignement plutot specialiste.
-                            Qui peut permettre une entrée dans le monde du travail. Je suis destiné à la programmation tout en tenant compte des besoins des entreprises.
-                            Aussi parce que les enseignements dont differenciés doc tu peux aussi te diversifiés vers la gestion d'un parc informatique d'une entreprise ou la cybersécurité,
-                            mais également car un BTS est un bon tremplin pour envisagerdes études supérieures plus longues par exmple une école d'informatique comme epitech ou un master en université.
-                            De plus les métierzs informatiques évoluant vite le BTS nous prépare à différents débouchés programmeurs développeurs chargés d'études analyste ...
-                        </p>
-                        <p><a class="btn btn-secondary" href="http://www.cned.fr" target="_blank"
-                              role="button">En savoir plus »</a>
-                        </p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h2>Le BTS SIO</h2>
-                        <p>Passionné d'informatique depuis le college, j'aime apprendre à faire 
-                            de nouvelles choses avec mon ordinateur. Un Geek ? pas forcémenet ! Après mon bac, le BTS 
-                            SIO s'est présenté comme une évidence. Avec 60% d'Informatique "pure", 13% 
-                            d'Économie, management et droit de l'informatique, 9% d'Anglais, 9% de culture 
-                            générale et 9% de Maths, je savais que cette formation allait me mettre le 
-                            pied à l'étrier pour poursuivre ensuite dans cette voie et devenir 
-                            informaticien !
-                        </p>
-                        <p><a class="btn btn-secondary" href="https://fr.wikipedia.org/wiki/Brevet_de_technicien_supérieur_-_Services_informatiques_aux_organisations"
-                              target="_blank" role="button">En savoir plus »</a>
-                        </p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h2>Option B SLAM</h2>
-                        <p>En fin de premier semestre, on doit choisir notre option. "Solutions
-                            Logicielles et Applications Métiers" est l'option qui m'a séduit&nbsp;! 
-                            Travailler en équipe à la satisfaction de besoins d'un client, définir des 
-                            spécifications, faire des tests, corriger des bugs, faire de la maintenance, 
-                            veiller à la sécurité des données à caractère personnel... tout en apprenant 
-                            les bases du métier de développeuse : modélisation des données 
-                            avec Merise et UML, programmation objet avec Java, C# et PHP, conception 
-                            de bases de données sous PostgreSQL et MySQL, réalisation de 
-                            composants logiciels avec Symfony, gestion de projet, méthodes agiles... 
-                            J'étais sûr que ça serait fait pour moi !
-                        </p>
-                        <p><a class="btn btn-secondary" href="https://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers"
-                              target="_blank" role="button">En savoir plus »</a>
-                        </p>
-                    </div>
-                </div>
-                <p class="text-center" id="copyright">© Yannis Lemaire 2022</p>
-            </div>
-        </footer>
     </body>
 </html>

@@ -26,6 +26,9 @@ img{
     background-color: blue
 }
 
+h1 {
+    margin-left: 8em;
+}
 /* Smartphone */
 @media screen and (max-width:768px) {
     body {
